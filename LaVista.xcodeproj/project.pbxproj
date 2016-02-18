@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA50A1871C76770800EC3120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA50A1861C76770800EC3120 /* AppDelegate.swift */; };
+		CA50A1891C76770800EC3120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA50A1881C76770800EC3120 /* ViewController.swift */; };
+		CA50A18C1C76770800EC3120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA50A18A1C76770800EC3120 /* Main.storyboard */; };
+		CA50A18E1C76770800EC3120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA50A18D1C76770800EC3120 /* Assets.xcassets */; };
+		CA50A1911C76770800EC3120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA50A18F1C76770800EC3120 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA50A1831C76770800EC3120 /* LaVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA50A1861C76770800EC3120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA50A1881C76770800EC3120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA50A18B1C76770800EC3120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA50A18D1C76770800EC3120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA50A1901C76770800EC3120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA50A1921C76770800EC3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA50A1801C76770800EC3120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA50A17A1C76770800EC3120 = {
+			isa = PBXGroup;
+			children = (
+				CA50A1851C76770800EC3120 /* LaVista */,
+				CA50A1841C76770800EC3120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA50A1841C76770800EC3120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA50A1831C76770800EC3120 /* LaVista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA50A1851C76770800EC3120 /* LaVista */ = {
+			isa = PBXGroup;
+			children = (
+				CA50A1861C76770800EC3120 /* AppDelegate.swift */,
+				CA50A1881C76770800EC3120 /* ViewController.swift */,
+				CA50A18A1C76770800EC3120 /* Main.storyboard */,
+				CA50A18D1C76770800EC3120 /* Assets.xcassets */,
+				CA50A18F1C76770800EC3120 /* LaunchScreen.storyboard */,
+				CA50A1921C76770800EC3120 /* Info.plist */,
+			);
+			path = LaVista;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA50A1821C76770800EC3120 /* LaVista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "LaVista" */;
+			buildPhases = (
+				CA50A17F1C76770800EC3120 /* Sources */,
+				CA50A1801C76770800EC3120 /* Frameworks */,
+				CA50A1811C76770800EC3120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaVista;
+			productName = LaVista;
+			productReference = CA50A1831C76770800EC3120 /* LaVista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA50A17B1C76770800EC3120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sho;
+				TargetAttributes = {
+					CA50A1821C76770800EC3120 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "LaVista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA50A17A1C76770800EC3120;
+			productRefGroup = CA50A1841C76770800EC3120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA50A1821C76770800EC3120 /* LaVista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA50A1811C76770800EC3120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA50A1911C76770800EC3120 /* LaunchScreen.storyboard in Resources */,
+				CA50A18E1C76770800EC3120 /* Assets.xcassets in Resources */,
+				CA50A18C1C76770800EC3120 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA50A17F1C76770800EC3120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA50A1891C76770800EC3120 /* ViewController.swift in Sources */,
+				CA50A1871C76770800EC3120 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA50A18A1C76770800EC3120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA50A18B1C76770800EC3120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA50A18F1C76770800EC3120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA50A1901C76770800EC3120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA50A1931C76770800EC3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA50A1941C76770800EC3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA50A1961C76770800EC3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaVista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.asod.LaVista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA50A1971C76770800EC3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaVista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.asod.LaVista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "LaVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA50A1931C76770800EC3120 /* Debug */,
+				CA50A1941C76770800EC3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "LaVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA50A1961C76770800EC3120 /* Debug */,
+				CA50A1971C76770800EC3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA50A17B1C76770800EC3120 /* Project object */;
+}
