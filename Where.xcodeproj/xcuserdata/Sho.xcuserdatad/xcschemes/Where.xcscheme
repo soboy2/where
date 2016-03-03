@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA50A1821C76770800EC3120"
-               BuildableName = "LaVista.app"
-               BlueprintName = "LaVista"
-               ReferencedContainer = "container:LaVista.xcodeproj">
+               BuildableName = "Where.app"
+               BlueprintName = "Where"
+               ReferencedContainer = "container:Where.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA50A1821C76770800EC3120"
-            BuildableName = "LaVista.app"
-            BlueprintName = "LaVista"
-            ReferencedContainer = "container:LaVista.xcodeproj">
+            BuildableName = "Where.app"
+            BlueprintName = "Where"
+            ReferencedContainer = "container:Where.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA50A1821C76770800EC3120"
-            BuildableName = "LaVista.app"
-            BlueprintName = "LaVista"
-            ReferencedContainer = "container:LaVista.xcodeproj">
+            BuildableName = "Where.app"
+            BlueprintName = "Where"
+            ReferencedContainer = "container:Where.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA50A1821C76770800EC3120"
-            BuildableName = "LaVista.app"
-            BlueprintName = "LaVista"
-            ReferencedContainer = "container:LaVista.xcodeproj">
+            BuildableName = "Where.app"
+            BlueprintName = "Where"
+            ReferencedContainer = "container:Where.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

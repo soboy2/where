@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA50A1831C76770800EC3120 /* LaVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA50A1831C76770800EC3120 /* Where.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Where.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA50A1861C76770800EC3120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA50A1881C76770800EC3120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA50A18B1C76770800EC3120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		CA50A17A1C76770800EC3120 = {
 			isa = PBXGroup;
 			children = (
-				CA50A1851C76770800EC3120 /* LaVista */,
+				CA50A1851C76770800EC3120 /* Where */,
 				CA50A1841C76770800EC3120 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		CA50A1841C76770800EC3120 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA50A1831C76770800EC3120 /* LaVista.app */,
+				CA50A1831C76770800EC3120 /* Where.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA50A1851C76770800EC3120 /* LaVista */ = {
+		CA50A1851C76770800EC3120 /* Where */ = {
 			isa = PBXGroup;
 			children = (
 				CA50A1861C76770800EC3120 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				CA50A18F1C76770800EC3120 /* LaunchScreen.storyboard */,
 				CA50A1921C76770800EC3120 /* Info.plist */,
 			);
-			path = LaVista;
+			path = Where;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA50A1821C76770800EC3120 /* LaVista */ = {
+		CA50A1821C76770800EC3120 /* Where */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "LaVista" */;
+			buildConfigurationList = CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "Where" */;
 			buildPhases = (
 				CA50A17F1C76770800EC3120 /* Sources */,
 				CA50A1801C76770800EC3120 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = LaVista;
+			name = Where;
 			productName = LaVista;
-			productReference = CA50A1831C76770800EC3120 /* LaVista.app */;
+			productReference = CA50A1831C76770800EC3120 /* Where.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "LaVista" */;
+			buildConfigurationList = CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "Where" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA50A1821C76770800EC3120 /* LaVista */,
+				CA50A1821C76770800EC3120 /* Where */,
 			);
 		};
 /* End PBXProject section */
@@ -246,29 +246,27 @@
 		CA50A1961C76770800EC3120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LaVista/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Where/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.asod.LaVista;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.asod.Where;
+				PRODUCT_NAME = Where;
 			};
 			name = Debug;
 		};
 		CA50A1971C76770800EC3120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LaVista/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Where/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.asod.LaVista;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.asod.Where;
+				PRODUCT_NAME = Where;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "LaVista" */ = {
+		CA50A17E1C76770800EC3120 /* Build configuration list for PBXProject "Where" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA50A1931C76770800EC3120 /* Debug */,
@@ -277,13 +275,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "LaVista" */ = {
+		CA50A1951C76770800EC3120 /* Build configuration list for PBXNativeTarget "Where" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA50A1961C76770800EC3120 /* Debug */,
 				CA50A1971C76770800EC3120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

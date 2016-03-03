@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LaVista.xcodeproj">
+      location = "self:/Users/Sho/dev/swift/Projects/LaVista copy/Where.xcodeproj">
    </FileRef>
 </Workspace>
